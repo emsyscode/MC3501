@@ -365,6 +365,7 @@ uint8_t wR2 = 0b01010101;
 uint8_t wR3 = 0b11110000; //Even is blue, Odd is Yellow, Last four bits are not used!
 for(uint8_t i = 0; i < 33; i++){
 switch (i) {
+//                abcdefgh          ijklmnop          qrstuvxz  
   case 0: wL1 = 0b00001000; wL2 = 0b01010101; wL3 = 0b00000000; //This case is a blue format equalizer "V"
           wR1 = 0b00001000; wR2 = 0b01010101; wR3 = 0b00000000; break;
 
